@@ -9,6 +9,10 @@
 import UIKit
 
 class LinesVC: UIViewController {
+	
+	//Outlets
+	@IBOutlet weak var loginBtn: UIButton!
+	
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,5 +20,10 @@ class LinesVC: UIViewController {
        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width * (6/8)
     }
 
+	@IBAction func loginButtonPressed(_ sender: UIButton) {
+		
+		performSegue(withIdentifier: TO_LOGIN, sender: nil)
+		
+	}
 	
 }
