@@ -13,7 +13,8 @@
 		B10B42051FA8FCF300FF73BC /* LinesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B42041FA8FCF300FF73BC /* LinesVC.swift */; };
 		B10B42071FABB79600FF73BC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B42061FABB79600FF73BC /* GradientView.swift */; };
 		B10B420A1FB0AEFB00FF73BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B42091FB0AEFB00FF73BC /* Constants.swift */; };
-		B10B420E1FB0B91000FF73BC /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B420D1FB0B91000FF73BC /* LoginVCViewController.swift */; };
+		B10B420E1FB0B91000FF73BC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B420D1FB0B91000FF73BC /* LoginVC.swift */; };
+		B10B42101FB0C18500FF73BC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10B420F1FB0C18500FF73BC /* CreateAccountVC.swift */; };
 		B116FA681FA8F281003F0F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B116FA671FA8F281003F0F86 /* AppDelegate.swift */; };
 		B116FA6D1FA8F281003F0F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B116FA6B1FA8F281003F0F86 /* Main.storyboard */; };
 		B116FA6F1FA8F281003F0F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B116FA6E1FA8F281003F0F86 /* Assets.xcassets */; };
@@ -28,7 +29,8 @@
 		B10B42041FA8FCF300FF73BC /* LinesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesVC.swift; sourceTree = "<group>"; };
 		B10B42061FABB79600FF73BC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B10B42091FB0AEFB00FF73BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B10B420D1FB0B91000FF73BC /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		B10B420D1FB0B91000FF73BC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B10B420F1FB0C18500FF73BC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		B116FA641FA8F281003F0F86 /* OpenLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B116FA671FA8F281003F0F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B116FA6C1FA8F281003F0F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,7 +75,8 @@
 			children = (
 				B10B42021FA8FCDE00FF73BC /* ChatViewController.swift */,
 				B10B42041FA8FCF300FF73BC /* LinesVC.swift */,
-				B10B420D1FB0B91000FF73BC /* LoginVCViewController.swift */,
+				B10B420D1FB0B91000FF73BC /* LoginVC.swift */,
+				B10B420F1FB0C18500FF73BC /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,11 +274,12 @@
 			files = (
 				B10B42051FA8FCF300FF73BC /* LinesVC.swift in Sources */,
 				B116FA681FA8F281003F0F86 /* AppDelegate.swift in Sources */,
+				B10B42101FB0C18500FF73BC /* CreateAccountVC.swift in Sources */,
 				B10B42071FABB79600FF73BC /* GradientView.swift in Sources */,
 				B10B42031FA8FCDE00FF73BC /* ChatViewController.swift in Sources */,
 				B10B41FC1FA8FA3000FF73BC /* SWRevealViewController.m in Sources */,
 				B10B420A1FB0AEFB00FF73BC /* Constants.swift in Sources */,
-				B10B420E1FB0B91000FF73BC /* LoginVCViewController.swift in Sources */,
+				B10B420E1FB0B91000FF73BC /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
